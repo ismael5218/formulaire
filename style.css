@@ -1,0 +1,39 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: purple;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#button{
+    background-color: #000000;
+    border-radius: 2px;
+    color: #e1e3e6;
+    
+}
+.button2{
+    margin-left: 16px;
+}
+.button{
+    padding: 5px 17px;
+}
+form{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0 40px 10px 40px;
+}
