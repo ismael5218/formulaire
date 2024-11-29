@@ -1,39 +1,43 @@
-
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: purple;
+    background-image: linear-gradient(90deg,aqua,red);
 }
 .item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-.item1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
 }
 .item1{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+}
+h2,p{
+    text-align: center;
 }
 #button{
     background-color: #000000;
-    border-radius: 2px;
-    color: #e1e3e6;
+    border-radius: 4px;
     
 }
-.button2{
-    margin-left: 16px;
+p,a{
+    font-size: 10px;
 }
 .button{
     padding: 5px 17px;
 }
+#a{
+    color: #ffffff;
+    text-decoration: none;
+}
 form{
     background-color: #ffffff;
-    border-radius: 5px;
-    padding: 0 40px 10px 40px;
+    border-radius: 6px;
+    padding: 0px 40px 10px 40px;
+    width: 200px;
 }
